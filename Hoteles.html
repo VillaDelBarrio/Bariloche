@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Turismo Argentino</h1>
+  <p>Cada viaje una historia, deja que te contemos la tuya.</p>
+</div>
+
+<div class="topnav">
+  <a href="../Pagina bruno/pagina web bariloche.html">Principal</a>
+  <a href="../Pagina bruno/Destinos.html">Destinos</a>
+  <a href="../Pagina bruno/Hoteles.html">Hoteles</a>
+  <a href="../Pagina bruno/Datos de empresa.html">Datos Empresa</a>
+  <a href="../Pagina bruno/Contactos.html">Contactos</a>
+  <a href="../Pagina bruno/Consulta.html" style="float:right">Consultas</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Hotel Eco Ski by bund</h2>
+      <h5>Barrio: Centro
+        Excelente para los visitantes
+        Área céntrica animada con pubs y chocolaterías, además del Museo de la Patagonia en el centro cívico de estilo suizo.</h5>
+      <div class="fakeimg" style="height:200px;"><img src="" alt=""></div>
+      <p>Acerca de este Hotel</p>
+      <p>Este hotel moderno creado con materiales sustentables, rodeado por la cordillera de los Andes y situado en el centro de Bariloche, se encuentra a 3 minutos a pie del Centro Cívico Bariloche y a 2 minutos a pie del Museo de la Patagonia Francisco Moreno.</p>
+    </div>
+    <div class="card">
+      <h2>Hotel Cambria</h2>
+      <h5>Barrio: Centro
+        Excelente para los visitantes
+        Área céntrica animada con pubs y chocolaterías, además del Museo de la Patagonia en el centro cívico de estilo suizo.</h5>
+      <div class="fakeimg" style="height:200px;"><img src="" alt=""></div>
+      <p>Acerca de este Hotel</p>
+      <p>Este hotel informal se ubica en una calle comercial, a 5 minutos a pie del Museo de la Patagonia Francisco P. Moreno y a 750 m del lago Nahuel Huapi.</p>
+    </div>
+    <div class="card">
+      <h2>Kenton Palace Hotel</h2>
+      <h5>Barrio: Centro
+        Excelente para los visitantes
+        Área céntrica animada con pubs y chocolaterías, además del Museo de la Patagonia en el centro cívico de estilo suizo.</h5>
+      <div class="fakeimg" style="height:200px;"><img src="" alt=""></div>
+      <p>Acerca de este Hotel</p>
+      <p> Este hotel tranquilo con vista al lago Nahuel Huapi se encuentra a 3 minutos a pie del Museo de la Patagonia Dr. Francisco P. Moreno y a 1 km de la catedral Nuestra Señora del Nahuel Huapi.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
