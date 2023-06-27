@@ -106,6 +106,63 @@ body {
     width: 100%;
   }
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -137,10 +194,110 @@ body {
       <p>Informacion del Destino</p>
       <p>El Parque Nacional Nahuel Huapi es un área amplia protegida en el Distrito de los Lagos, en la Patagonia argentina. El parque es conocido por el Nahuel Huapi, el lago glaciar más grande. Sobre sus costas se encuentran las ciudades de San Carlos de Bariloche, famosa por su industria chocolatera, y Villa La Angostura. En el oeste, limita con los Andes, y allí se encuentra el cerro Tronador, de gran altura, que es un volcán inactivo. Las áreas de bosque albergan pudúes, una especie de venado poco común.</p>
 
+      
       <h5>Ubicacion en el Google Maps</h5>
       <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3011.150641681386!2d-71.50492114322199!3d-41.00007591176621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sparque%20nacional%20nahuel%20huapi!5e0!3m2!1ses!2sar!4v1686663726946!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
      
       <img src="../Pagina Bariloche/Imagenes/nahuelhuapidestino.jpg" alt="Forest" width="600" height="450">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center">Paquetes de compras de excursiones</h2>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Basico</li>
+    <li class="grey">$ 9.99 </li>
+    <li>Entrada </li>
+    <li>Guia de excursion</li>
+    <li>...</li>
+    <li>...</li>
+
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header" style="background-color:#04AA6D">Pro</li>
+    <li class="grey">$ 24.99 </li>
+    <li>Entrada</li>
+    <li>Guia de excursion</li>
+    <li>Desayuno, Almuerzo y Merienda</li>
+    <li>...</li>
+    
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Premium</li>
+    <li class="grey">$ 49.99 </li>
+    <li>Entrada</li>
+    <li>Guia de excursion</li>
+    <li>Desayuno, Almuerzo, Merienda y Cena</li>
+    <li>Excursion Nocturna</li>
+  </ul>
+</div>
+
+      
      
       <p></p>
 
@@ -166,6 +323,43 @@ body {
     
         </center>
     </div>
+    
+    <h2 style="text-align:center">Paquetes de compras de excursiones</h2>
+
+    <div class="columns">
+      <ul class="price">
+        <li class="header">Basico</li>
+        <li class="grey">$ 9.99 </li>
+        <li>Entrada </li>
+        <li>Guia de excursion</li>
+        <li>...</li>
+        <li>...</li>
+    
+      </ul>
+    </div>
+    
+    <div class="columns">
+      <ul class="price">
+        <li class="header" style="background-color:#04AA6D">Pro</li>
+        <li class="grey">$ 24.99 </li>
+        <li>Entrada</li>
+        <li>Guia de excursion</li>
+        <li>Desayuno, Almuerzo y Merienda</li>
+        <li>...</li>
+        
+      </ul>
+    </div>
+    
+    <div class="columns">
+      <ul class="price">
+        <li class="header">Premium</li>
+        <li class="grey">$ 49.99 </li>
+        <li>Entrada</li>
+        <li>Guia de excursion</li>
+        <li>Desayuno, Almuerzo, Merienda y Cena</li>
+        <li>Excursion Nocturna</li>
+      </ul>
+    </div>
   </div>
 
 
@@ -174,12 +368,6 @@ body {
       <div class="card">
         <center>
         <h2>Cerro Lopez</h2>
-             
-
-
-
-
-                
                 <p>Informacion del Destino</p>
                 <p>El cerro López está ubicado en el Circuito Chico. A sus pies se encuentra el pueblo Colonia Suiza hacia el este y los lagos Moreno y Nahuel Huapi hacia el norte y noroeste, respectivamente. Tiene una altura de 2075 metros sobre el nivel del mar. Posee una picada, o sendero, por la cual en sólo tres horas de caminata se llega al refugio López donde encontrarás un excelente lugar con todo lo necesario para pernoctar.
                   Al pie del cerro se pueden contratar cabalgatas y canopy. Esta última es una actividad que ya se ha convertido en un clásico de la ciudad, ideal para disfrutar junto a toda la familia o amigos. Podrás volar entre plataformas de gran altura sobre un espectacular bosque, con guías especializados y equipos que garantizan la total seguridad de la experiencia.
@@ -190,17 +378,54 @@ body {
        
         <img src="../Pagina Bariloche/Imagenes/cerrolopezdestino.jpg" alt="Forest" width="600" height="450">
 
+        <h2 style="text-align:center">Paquetes de compras de excursiones</h2>
+
+        <div class="columns">
+          <ul class="price">
+            <li class="header">Basico</li>
+            <li class="grey">$ 14.99 </li>
+            <li>Entrada y Aerosilla </li>
+            <li>Guia de excursion</li>
+            <li>...</li>
+            <li>...</li>
+        
+          </ul>
+        </div>
+        
+        <div class="columns">
+          <ul class="price">
+            <li class="header" style="background-color:#04AA6D">Pro</li>
+            <li class="grey">$ 29.99 </li>
+            <li>Entrada y Aerosilla</li>
+            <li>Guia de excursion</li>
+            <li>Desayuno, Almuerzo y Merienda</li>
+            <li>...</li>
+            
+          </ul>
+        </div>
+        
+        <div class="columns">
+          <ul class="price">
+            <li class="header">Premium</li>
+            <li class="grey">$ 54.99 </li>
+            <li>Entrada y Aerosilla</li>
+            <li>Guia de excursion</li>
+            <li>Desayuno, Almuerzo, Merienda y Cena</li>
+            <li>Excursion Nocturna</li>
+          </ul>
+        </div>
+          </ul>
+        </div>
         <p></p>
         </center>
       </div>
 
+
+
+      <p></p>
       <div class="card">
         <center>
         <h2>Cerro Catedral </h2>
- 
-        
-
-
         <p>Informacion del Destino</p>
       <p>Es el centro de esquí más grande del hemisferio sur ( 1200 hectáreas esquiables ) y ofrece una amplia infraestructura de servicios para la práctica de deportes invernales. Está abierto todo el año y cuenta con 32 medios de elevación (entre aerosillas, telecabinas y medios de arrastre), facilitando el ascenso de 28 mil personas por hora.
 A lo largo de toda la montaña podrás disfrutar de los hermosos paradores instalados en sus imponentes laderas, con vistas increíbles a los lagos Nahuel Huapi y Gutiérrez, la cordillera de los Andes, el cerro Tronador, y los cerros demás circundantes.
@@ -216,6 +441,45 @@ En verano podés practicar múltiples actividades de aventura para toda la famil
        </center>
 
 
+       <h2 style="text-align:center">Paquetes de compras de excursiones</h2>
+
+       <div class="columns">
+         <ul class="price">
+           <li class="header">Basico</li>
+           <li class="grey">$ 9.99 </li>
+           <li>Entrada </li>
+           <li>Guia de excursion</li>
+           <li>...</li>
+           <li>...</li>
+       
+         </ul>
+       </div>
+       
+       <div class="columns">
+         <ul class="price">
+           <li class="header" style="background-color:#04AA6D">Pro</li>
+           <li class="grey">$ 24.99 </li>
+           <li>Entrada</li>
+           <li>Guia de excursion</li>
+           <li>Desayuno, Almuerzo y Merienda</li>
+           <li>...</li>
+           
+         </ul>
+       </div>
+       
+       <div class="columns">
+         <ul class="price">
+           <li class="header">Premium</li>
+           <li class="grey">$ 49.99 </li>
+           <li>Entrada</li>
+           <li>Guia de excursion</li>
+           <li>Desayuno, Almuerzo, Merienda y Cena</li>
+           <li>Excursion Nocturna y Mirador</li>
+         </ul>
+       </div>
+
+         <p></p>
+       </div>
        
       </div>
     </div>
