@@ -15,14 +15,14 @@
 body {
   font-family: Arial;
   padding: 10px;
-  background: #f1f1f1;
+  background: #F1F1F1;
 }
 
 /* Header/Blog Title */
 .header {
   padding: 30px;
   text-align: center;
-  background: white;
+  background: #F1F1F1;
 }
 
 .header h1 {
@@ -32,14 +32,14 @@ body {
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: grey;
 }
 
 /* Style the topnav links */
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #ddd;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -47,61 +47,18 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: grey;
+  color: white;
 }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {   
-  float: left;
-  width: 100%;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  background-color: #f1f1f1;
-  padding-left: 20px;
-}
-
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
 
 /* Add a card effect for articles */
 .card {
-  background-color: white;
+  background-color: #F1F1F1;
   padding: 20px;
   margin-top: 20px;
 }
 
-/* Clear floats after the columns */
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #bfc5c0;
-  margin-top: 20px;
-}
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0;
-  }
-}
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
@@ -131,25 +88,22 @@ body {
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
-      <center><h1>Informacion Sobre la Empresa </h1></center>
+      <center><h2>Informacion Sobre la Empresa </h2></center>
       <p>
       <p>
         <div class="row">
           <div class="leftcolumn">
             <div class="card">
-              <center><h3>Nombre de la empresa: Turismo Bariloche</h3></center>
+              <center><h2>Nombre de la empresa: Turismo Bariloche</h2></center>
             </div>
           </div>
         </div>
-        
-        <p></p>
-        <p>
          
-        </p>
         
-         <center><img src="" alt=""></center>
+        
+         <center> <img src="../fondo pagina web.jpg" style="width:100%"></center>
    
-      </p>
+      
   
       <div class="row">
         <div class="leftcolumn">
@@ -160,50 +114,47 @@ body {
       </div>
 
 <p></p>
+<h2>
 Ubicación: Bariloche, Argentina
+</h2>
 <p></p>
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
-      <h3>Descripción de la empresa:</h3>
+      <h2>Descripción de la empresa:</h2>
     </div>
   </div>
 </div>
 <p></p>
+<h3>
 Turismo Bariloche es una agencia de viajes especializada en la organización de experiencias turísticas en la hermosa región de Bariloche y sus alrededores. Nuestro objetivo es brindar a nuestros clientes una amplia variedad de opciones de viaje, desde actividades al aire libre hasta tours culturales, para que puedan disfrutar al máximo de esta encantadora zona.
+</h3>
 <p></p>
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
-      <h3>Servicios ofrecidos</h3>
+      <h2>Servicios ofrecidos</h2>
     </div>
   </div>
 </div>
-
-<p></p>
-Paquetes turísticos: Ofrecemos una selección de paquetes turísticos que incluyen alojamiento, transporte, actividades y guías profesionales para garantizar una experiencia completa y memorable.
-<p></p>
-Excursiones y actividades: Organizamos una variedad de excursiones y actividades en la región de Bariloche, como caminatas por senderos naturales, paseos en kayak, pesca, esquí, snowboard y mucho más.
-<p></p>
-Tours culturales: Proporcionamos tours culturales que permiten a los visitantes explorar la historia, la arquitectura y la cultura local de Bariloche, incluyendo visitas a museos, iglesias y otros lugares de interés.
-<p></p>
-Servicios de transporte: Facilitamos el transporte de nuestros clientes desde y hacia el aeropuerto de Bariloche y otros destinos dentro de la región. También ofrecemos alquiler de vehículos para aquellos que prefieren explorar la zona por su cuenta.
-<p></p>
-Servicios de alojamiento: Tenemos asociaciones con una amplia gama de hoteles, cabañas y resorts en Bariloche para ofrecer opciones de alojamiento que se adapten a diferentes presupuestos y preferencias.
-<p></p>
-Misión: Nuestra misión es proporcionar experiencias turísticas inolvidables en la región de Bariloche, ofreciendo servicios de alta calidad, atención personalizada y promoviendo el cuidado del medio ambiente y la cultura local.
-<p></p>
+<h3>
+Paquetes turísticos: Ofrecemos una selección de paquetes turísticos que incluyen alojamiento, transporte, actividades y guías profesionales para garantizar una experiencia completa y memorable.Excursiones y actividades: Organizamos una variedad de excursiones y actividades en la región de Bariloche, como caminatas por senderos naturales, paseos en kayak, pesca, esquí, snowboard y mucho más.
+Tours culturales: Proporcionamos tours culturales que permiten a los visitantes explorar la historia, la arquitectura y la cultura local de Bariloche, incluyendo visitas a museos, iglesias y otros lugares de interés.Servicios de transporte: Facilitamos el transporte de nuestros clientes desde y hacia el aeropuerto de Bariloche y otros destinos dentro de la región. También ofrecemos alquiler de vehículos para aquellos que prefieren explorar la zona por su cuenta.
+Servicios de alojamiento: Tenemos asociaciones con una amplia gama de hoteles, cabañas y resorts en Bariloche para ofrecer opciones de alojamiento que se adapten a diferentes presupuestos y preferencias.Misión: Nuestra misión es proporcionar experiencias turísticas inolvidables en la región de Bariloche, ofreciendo servicios de alta calidad, atención personalizada y promoviendo el cuidado del medio ambiente y la cultura local.
 Visión: Ser reconocidos como la agencia de viajes líder en la región de Bariloche, brindando servicios turísticos de excelencia y siendo un referente en la promoción del turismo sostenible y responsable.
-<p></p>
+</h3>
 <p></p>
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
-      <h3>Valores</h3>
+      <h2>Valores</h2>
     </div>
   </div>
 </div>
 
+
+<div>
+  <h3>
 <p></p>
 Calidad: Nos esforzamos por ofrecer servicios turísticos de alta calidad en todas nuestras operaciones.
 <p></p>
@@ -215,11 +166,10 @@ Profesionalismo: Contamos con un equipo de profesionales capacitados y apasionad
 <p></p>
 Integridad: Actuamos con honestidad, ética y transparencia en todas nuestras interacciones con clientes, proveedores y socios comerciales.
 <p></p>
-<p></p>
-<p></p>
-<p></p>
-¡En Turismo Bariloche estamos listos para ayudarte a descubrir y disfrutar de las maravillas de esta hermosa región!</p>
-    </div>
+¡En Turismo Bariloche estamos listos para ayudarte a descubrir y disfrutar de las maravillas de esta hermosa región!
+</p>
+</h3>
+  </div>
 
 
 </body>
