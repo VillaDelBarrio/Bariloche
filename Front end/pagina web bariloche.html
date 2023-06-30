@@ -81,7 +81,7 @@ body {
 .footer {
   padding: 20px;
   text-align: center;
-  background: #F1F1F1;
+  background: #000000;
   margin-top: 20px;
 }
 
@@ -137,9 +137,89 @@ img {vertical-align: middle;}
 }
 
 
+Bordes fotos footer 
+    div.gallery {
+      border: 1px solid #F1F1F1;
+    }
+    
+    div.gallery:hover {
+      border: 1px solid black;
+    }
+    
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+    
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+    
+    * {
+      box-sizing: border-box
+      
+    }
+    
+    .responsive {
+      padding: 0 6px;
+      float: left;
+      width: 24.99999%;
+    }
+    
+    @media only screen and (max-width: 700px) {
+      .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+      }
+    }
+    
+    @media only screen and (max-width: 500px) {
+      .responsive {
+        width: 100%;
+      }
+    }
+    
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
 
 
-
+    .fa {
+          padding: 20px;
+          font-size: 30px;
+          width: 70px;
+          text-align: center;
+          text-decoration: none;
+          margin: 5px 2px;
+        }
+        
+        .fa:hover {
+            opacity: 0.7;
+        }
+        
+        .fa-facebook {
+          background: #3B5998;
+          color: white;
+        }
+        
+        .fa-twitter {
+          background: #55ACEE;
+          color: white;
+        }
+        
+     
+        .fa-youtube {
+          background: #bb0000;
+          color: white;
+        }
+        
+        .fa-instagram {
+          background: #125688;
+          color: white;
+        }
 
 </style>
 
@@ -258,44 +338,8 @@ img {vertical-align: middle;}
     
       <p><meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <style>
-        .fa {
-          padding: 20px;
-          font-size: 30px;
-          width: 70px;
-          text-align: center;
-          text-decoration: none;
-          margin: 5px 2px;
-        }
         
-        .fa:hover {
-            opacity: 0.7;
-        }
-        
-        .fa-facebook {
-          background: #3B5998;
-          color: white;
-        }
-        
-        .fa-twitter {
-          background: #55ACEE;
-          color: white;
-        }
-        
-     
-        .fa-youtube {
-          background: #bb0000;
-          color: white;
-        }
-        
-        .fa-instagram {
-          background: #125688;
-          color: white;
-        }
       
-        </style>
-        </head>
-        <body>
         
         <!-- Add font awesome icons -->
         <a href="https://www.facebook.com/prettiviajes/?ref=hl" class="fa fa-facebook"></a>
@@ -308,64 +352,7 @@ img {vertical-align: middle;}
   </div>
 </div>
 
-
-<div class="footer">
-  
-
-  <style>
-     Bordes fotos footer 
-    div.gallery {
-      border: 1px solid #F1F1F1;
-    }
-    
-    div.gallery:hover {
-      border: 1px solid black;
-    }
-    
-    div.gallery img {
-      width: 100%;
-      height: auto;
-    }
-    
-    div.desc {
-      padding: 15px;
-      text-align: center;
-    }
-    
-    * {
-      box-sizing: border-box
-      
-    }
-    
-    .responsive {
-      padding: 0 6px;
-      float: left;
-      width: 24.99999%;
-    }
-    
-    @media only screen and (max-width: 700px) {
-      .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-      }
-    }
-    
-    @media only screen and (max-width: 500px) {
-      .responsive {
-        width: 100%;
-      }
-    }
-    
-    .clearfix:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-    </style>
-    </head>
-    <body>
-    
-    <h1 style="color: black;">Lugares turisticos más visitados</h1>
+<center><h1 style="color: black;">Lugares turisticos más visitados</h1></center>
     
     
     
@@ -409,6 +396,44 @@ img {vertical-align: middle;}
     <div class="clearfix"></div>
     
     <div style="padding:6px;">
+
+
+<div class="footer">
+  
+
+
+    </head>
+    <body>
+      <div class="card">
+        <h3>Siguenos en nuestras redes sociales..</h3>
+  
+      
+        <p><meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          
+        
+          
+          <!-- Add font awesome icons -->
+          <a href="https://www.facebook.com/prettiviajes/?ref=hl" class="fa fa-facebook"></a>
+          <a href="https://www.youtube.com/channel/UCgOkr6JUofaI-KJJQNoOl7w" class="fa fa-youtube"></a>
+          <a href="https://www.instagram.com/prettiviajesok/" class="fa fa-instagram"></a>
+       
+  
+                </p>
+                <p><h4>Puedes comunicarte con nosotros a través de los siguientes canales...</h4>
+                  <p></p>
+                 Teléfono: +54 294 5876
+                 <p></p>
+                 Correo electrónico: info@turismobariloche.com
+                 <p></p>
+                 Página web: www.turismobariloche.com
+                 <p></p>
+                 No dudes en contactarnos en cualquier momento. ¡Estamos ansiosos por ayudarte a descubrir la belleza de Bariloche y brindarte un viaje excepcional!
+                 <p></p></p>
+      </div>
+    </div>
+  </div>
+    
 
 </div>
 
